@@ -1,14 +1,39 @@
+<div class='container'>
 
+  <header class='header'>
+    <div class='logo'>MVP</div>
+    <a class='nav' href='/'>🎥</a>
+  </header>
+  <main class='main'>
+    <h1 class='title'>Movie Generator</h1>
+    <br/><br/>
 
-  
-    
-  </div>
-  {{!-- {{#each movies}}
+    <div class='movieGenBox'>
+      {{#each movies}}
+      <img src="{{image}}" alt=""/>
+      {{/each}}
+      </div>
+
+    <div class='field-select'>
+      <label class='field-label'>What did you think of the movie?
+        <span>*</span></label>
+      <selectclass='field-required'name='fields'required='required'aria-invalid='false'>
+        <option value='great'>great</option>
+        <option value='mediocre'>mediocre</option>
+        <option value='terrible'>terrible</option>
+      </select>
+      <div class='field-description'>choose from dropdown list</div>
+    </div>
+
+    <div class='button'>
+      <button type="submit" class='btnn'><a href='#'>Generator</a></button>
+      <buttton type="submit" class='btnn'><a href='#'>Next Movie</a></buttton>
+    </div>
+  </main>
+</div>
+
+{{!-- {{#each movies}}
   <div class="movie-list">
     <a href="/movies/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
   </div>
   {{/each}} --}}
-  {{!-- <p>Button to be rendered here</p> --}}
-</div>
-
-
