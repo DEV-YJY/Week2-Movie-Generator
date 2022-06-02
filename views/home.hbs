@@ -7,13 +7,13 @@
   <title>Movie Generator</title>
 </head>
 <body>
-  <header>
-    <div class="logo"></div>
-    <nav>
-      <ul>
-        <li>About</li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+  {{#each movies}}
+  <div class="movie-list">
+    <a href="/movies/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
+  </div>
+  {{/each}}
+</div>
+  
 </body>
 </html>
