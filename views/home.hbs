@@ -9,7 +9,7 @@
     <br/><br/>
 
 
-    <div class='movieGenBox'>
+    {{!-- <div class='movieGenBox'>
       {{#each movies}}
       <img src="{{image}}" alt=""/>
       {{/each}}
@@ -24,14 +24,26 @@
         <option value='terrible'>terrible</option>
       </select>
       <div class='field-description'>choose from dropdown list</div>
-    </div>
+    </div> --}}
 
     <div class='button'>
-      <button type="submit" class='btnn'><a href='#'>Generator</a></button>
-      <buttton type="submit" class='btnn'><a href='#'>Next Movie</a></buttton>
+      <button id="btnnGen" onclick="Generator()" type="submit" class='btnn'>Generator</button>
+
+      <script>
+        document.getElementById("btnnGen").addEventListener("click", myFunction);
+
+        function myFunction() {
+          let randomNum = Math.floor(Math.random() * 5) + 1
+          document.getElementById("btnnGen").innerHTML = "YOU CLICKED ME!";
+          window.location.href = `/moviedetails/${randomNum}`
+        }
+      </script>
+      
     </div>
   </main>
 </div>
+
+
 
 
 

@@ -36,12 +36,12 @@ function showOneMovie(id, callback) {
 
 module.exports = router
 
-//   // fs.readFile('./movies.json', 'utf-8', (err, data) => {
+  // fs.readFile('./movies.json', 'utf-8', (err, data) => {
 //   /const oneMovie = movieData.movie_list.find((item) => { return item.id == id
-//   //   })
-//   //   const movies = JSON.parse(data) // parse json(data)?
-//   //   res.render('moviedetails', movies)
-//   //   callback(oneMovie)
+  //   })
+  //   const movies = JSON.parse(data) // parse json(data)?
+  //   res.render('moviedetails', movies)
+  //   callback(oneMovie)
 //   })
 // }
 
