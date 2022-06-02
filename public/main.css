@@ -1,0 +1,138 @@
+/* General Rules ------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(/public/images/background.jpeg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  margin: auto;
+}
+  
+
+/* Main ----------------------------------------*/
+.main {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: inline-block;
+  }
+
+/* header -------------------------------------------*/
+
+.header{
+  width: 100%;
+  height: 160px;
+  background-color: #635f5c48;
+  text-shadow: 10px 10px 10px #2d2d2c;
+  display:flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.logo {
+  color:#ff7200;
+  
+  font-size: 75px;
+  width: 500px;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+}
+
+.nav {
+  font-size: 80px;
+  display: flex;
+  position: relative;
+}
+ 
+
+.title{
+  font-size: 45px;
+  color:#fff;
+  text-align: center;
+  text-shadow: 10px 10px 10px #292827;
+  letter-spacing: 1.5px;
+}
+
+/* Movie Generation Box ------------------------------------*/
+.movieGenBox {
+  width: 700px;
+  height: 500px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.619);
+  box-shadow: 10px 10px 10px #292827;
+}
+
+.field-select {
+  margin: 30px;
+  text-align: center;
+}
+
+.field-label {
+  color:#fff;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px #3e3d3c;
+  letter-spacing: 1px;
+}
+
+.field-required{
+  width: 100px;
+  background-color: rgb(217, 214, 211);
+  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: .7px;
+}
+
+.field-description{
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+/* Buttons -------------------------------------------*/
+.button{
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+.btnn{
+  width: 250px;
+  height: 55px;
+  background: #ff7200;
+  border: none;
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+  padding: 5px;
+  letter-spacing: 1.2px;
+  text-shadow: 1px 1px 1px #292827;
+  box-shadow: 10px 10px 10px #292827cb;
+  margin: 25px;
+  
+}
+
+.btnn:hover{
+  background: #fff;
+}
+
+.btnn a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btnn:hover a{
+  color: #000;
+}
+

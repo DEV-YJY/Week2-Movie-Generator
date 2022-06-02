@@ -5,10 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Movie Generator</title>
+  <link rel="stylesheet" href="/main.css">
 </head>
 <body>
-    <div class="container">
-      {{{body}}}
+  <div class="container">
+
+  </div>
+  <header class="header">
+    <div class="logo">MVP</div>
+    <a class="nav" href="/">🎥</a>
+  </header>
+  <main class="main">
+    <h1 class="title">Movie Generator</h1>
+    <br><br>
+    <div class="movieGenBox"></div>
+
+    <div class="field-select" >
+      <label class="field-label">What did you think of the movie? <span >*</span></label>
+      <select class="field-required" name="fields" required="required" aria-invalid="false">
+        <option value="great">great</option>
+        <option value="mediocre">mediocre</option>
+        <option value="terrible">terrible</option>
+      </select>
+      <div class="field-description">choose from dropdown list</div>
+      </div>
+
+    <div class="button">
+      <button class="btnn"><a href="#">Generator</a></button>
+    <button class="btnn"><a href="#">Next Movie</a></button>
     </div>
+    
+  </main>
+
+   
+
+      {{{body}}}  
+  
 </body>
 </html>

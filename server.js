@@ -36,7 +36,7 @@ server.get('/', (req, res) => {
     }
     const movies = JSON.parse(data)
     res.render('home', movies)
-    console.log(movies)
+    // console.log(movies)
     //res.send(puppies)
   })
 })
