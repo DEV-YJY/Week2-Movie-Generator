@@ -1,5 +1,5 @@
-<div class= "movie">
-  <img src="{{image}}">
+<div class='movie'>
+  <img src='{{image}}' />
   <h3>{{name}}</h3>
   <div>Starring: {{starring}}</div>
   <div>Director: {{director}}</div>
@@ -7,13 +7,14 @@
   <div>Run time: {{runTime}}</div>
   <div>Genre: {{genre}}</div>
   <div>Synopsis: {{synopsis}}</div>
+
+  <a href='/movies/{{id}}/edit'>Edit</a>
+
   <a href="/movies/{{id}}/edit">Add review</a>
+
 </div>
 
-
-
-
-    {{!-- {
+{{! {
       "image": "/images/movie5.jpg"
       "name": "Casino",
       "starring": "Robert De Niro, Sharon Stone, Joe Pesci",
@@ -22,4 +23,4 @@
       "run time": "2h 58m",
       "genre": "Crime, drama",
       "synopsis": "A tale of greed, deception, money, power, and murder occur between two best friends: a mafia enforcer and a casino executive compete against each other over a gambling empire, and over a fast-living and fast-loving socialite. ",
-    } --}}
+    } }}

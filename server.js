@@ -57,4 +57,4 @@ module.exports = server
 //   fs.readFile('./movies.json', 'utf-8', (err, data) => {
 //    res.render('home', JSON.parse(data))
 //   })
-// })
+
