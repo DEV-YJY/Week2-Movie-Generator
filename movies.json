@@ -6,7 +6,7 @@
       "starring": "Matt Damon, Ben Affleck, Robin Williams",
       "director": "Gus Van Sant",
       "year": "1997",
-      "run time": "2h 6m",
+      "runTime": "2h 6m",
       "genre": "Drama, romance",
       "synopsis": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.",
       "image": "/images/movie1.jpg"
@@ -17,7 +17,7 @@
       "starring": "Jack Nicholson",
       "director": "James L Brooks",
       "year": "1997",
-      "run time": "2h 19m",
+      "runTime": "2h 19m",
       "genre": "Comedy, drama, romance",
       "synopsis": "A single mother and waitress, a misanthropic author, and an artist form an unlikely friendship after the artist is assaulted in a robbery.",
       "image": "/images/movie2.jpg"
@@ -28,7 +28,7 @@
       "starring": "Harvey Keitel, Tim Roth, Michael Madsen",
       "director": "Quentin Tarantino",
       "year": "1992",
-      "run time": "1h 39m",
+      "runTime": "1h 39m",
       "genre": "Crime, drama, thriller",
       "synopsis": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
       "image": "/images/movie3.jpg"
@@ -39,7 +39,7 @@
       "starring": "Tom Cruise",
       "director": "Paul Thomas Anderson",
       "year": "1999",
-      "run time": "3h 8m",
+      "runTime": "3h 8m",
       "genre": "Drama",
       "synopsis": "An epic mosaic of interrelated characters in search of love, forgiveness, and meaning in the San Fernando Valley. ",
       "image": "/images/movie4.jpg"
@@ -50,7 +50,7 @@
       "starring": "Robert De Niro, Sharon Stone, Joe Pesci",
       "director": "Martin Scorsase",
       "year": "1995",
-      "run time": "2h 58m",
+      "runTime": "2h 58m",
       "genre": "Crime, drama",
       "synopsis": "A tale of greed, deception, money, power, and murder occur between two best friends: a mafia enforcer and a casino executive compete against each other over a gambling empire, and over a fast-living and fast-loving socialite. ",
       "image": "/images/movie5.jpg"
