@@ -1,5 +1,5 @@
 const express = require('express')
-const res = require('express/lib/response')
+// const res = require('express/lib/response')
 const router = express.Router()
 const fs = require('fs')
 const path = require('path')
@@ -8,10 +8,13 @@ const path = require('path')
 
 const movieData = path.resolve('./data.json')
 
-router.get('/moviedetails/:id', (req, res) => {
+router.get('/:id', (req, res) => {
   const id = req.params.id
   showOneMovie(id, (movies) => {
+    console.log('movies', movies)
+    // res.render('home', movies)
     res.render('moviedetails', movies)
+    console.log('here')
   })
 })
 
