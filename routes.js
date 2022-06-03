@@ -14,7 +14,7 @@ router.get('/:id', (req, res) => {
     console.log('movies', movies)
     // res.render('home', movies)
     res.render('moviedetails', movies)
-    console.log('here')
+    // console.log('here')
   })
 })
 
@@ -33,6 +33,24 @@ function showOneMovie(id, callback) {
     callback(oneMovie)
   })
 }
+
+router.get('/:id/edit', (req,res) => {
+  const id = req.params.id
+  showOneMovie(id, (callback) => {
+    res.render('movieedit', {id})
+})
+})
+
+
+
+
+
+
+
+
+
+
+
 
 module.exports = router
 
