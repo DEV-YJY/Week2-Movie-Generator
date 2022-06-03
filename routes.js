@@ -14,7 +14,7 @@ router.get('/:id', (req, res) => {
     console.log('movies', movies)
     // res.render('home', movies)
     res.render('moviedetails', movies)
-    console.log('here')
+    // console.log('here')
   })
 })
 
@@ -34,14 +34,32 @@ function showOneMovie(id, callback) {
   })
 }
 
+router.get('/:id/edit', (req,res) => {
+  const id = req.params.id
+  showOneMovie(id, (callback) => {
+    res.render('movieedit', {id})
+})
+})
+
+
+
+
+
+
+
+
+
+
+
+
 module.exports = router
 
-//   // fs.readFile('./movies.json', 'utf-8', (err, data) => {
+  // fs.readFile('./movies.json', 'utf-8', (err, data) => {
 //   /const oneMovie = movieData.movie_list.find((item) => { return item.id == id
-//   //   })
-//   //   const movies = JSON.parse(data) // parse json(data)?
-//   //   res.render('moviedetails', movies)
-//   //   callback(oneMovie)
+  //   })
+  //   const movies = JSON.parse(data) // parse json(data)?
+  //   res.render('moviedetails', movies)
+  //   callback(oneMovie)
 //   })
 // }
 
